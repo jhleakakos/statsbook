@@ -1,6 +1,9 @@
 project:
   type: book
 
+website:
+  site-url: https://jhleakakos.github.io/statsbook
+
 book:
   title: "statsbook"
   author: "Joseph Leakakos"
