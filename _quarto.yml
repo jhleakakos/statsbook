@@ -1,0 +1,20 @@
+project:
+  type: book
+
+book:
+  title: "statsbook"
+  author: "Joseph Leakakos"
+  date: "2/10/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
