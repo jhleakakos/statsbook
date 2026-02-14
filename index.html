@@ -22,41 +22,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -67,7 +32,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
+<link href="./01_intro.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -152,19 +117,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+  <a href="./01_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
+  <a href="./99_references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
@@ -218,14 +177,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
-<p>This is a Quarto book. With a change to make sure actions are working right.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<p>My primary inspiration for wanting to revisit this work, distill the core concepts and throughlines, and then rebuild my own understanding and explanations in this book is the series of statistics courses I took during my graduate degree in data science at the University of Colorado Boulder. My background is:</p>
+<p>Liberal Arts -&gt; Information Technology -&gt; Databases -&gt; Project Leadership -&gt; Data Science</p>
+<p>The exposure to the formal mathematics in the statistics courses and that underlie the data and machine learning work I was already doing was both challenging and engaging, so the hope is to use this book as an opportunity to go through that content more slowly and in more depth.</p>
+<p>Not being sure where I will attribute more concretely, this is a list of the course areas that serve as inspiration and guidance for this book:</p>
+<ul>
+<li>Probability with Dr.&nbsp;Anne Dougherty</li>
+<li>Statistical estimation, statistical inference, and hypothesis testing with Dr.&nbsp;Jem Corcoran</li>
+<li>Statistical modeling, regression analysis, ANOVA, generalized linear models, and nonparametric regression with Dr.&nbsp;Brian Zaharatos</li>
+<li>Statistical learning, regression, and classification with Dr.&nbsp;James Bird</li>
+<li>Statistical learning, resampling, selection, and splines with Dr.&nbsp;Osita Onyejekwe</li>
+</ul>
+<p>These courses are scoped to what I consider to be the statistical foundation of regression and regression-adjacent modeling, in contrast to the jump to machine learning where we focus more heavily on nonparametric methods, though there is some overlap and some of the above professors also covered content that would fall into how I distinguish machine learning, but machine learning will wait for another book.</p>
+<p>In particular, I like the broader progression in the order in which I took these courses and that span across instructors:</p>
+<p>probability -&gt; statistical estimation -&gt; hypothesis testing -&gt; regression -&gt; ANOVA -&gt; generalized linear models -&gt; generalized additive models</p>
+<p>The piece that clicked for me and helped my broader understanding of statistical modeling is the move from linear regression to generalized linear models (GLM) – though linear regression is a GLM with an identity link function relating the response to the linear combination of independent variables – to generalized additive models (GAM) where the relationship between the independent and dependent variables can be non-linear and nonparametric. For whatever reason, this step from linear regression to GLMs to GAMs was a big ah-ha moment for me, and it has stuck in my head for two years and I now circle back to explore it more fully.</p>
+<p>While my notes and projects from these courses will inform and guide the direction of this book, at least for now, the goal is to pull out the broader dialogue across the courses above, distilling into my understanding and way of charting the progression, supplementing with other resources, and incorporating formal math proofs and work inspired by all of the above and primarily worked through for checking my own understanding and intuition.</p>
+<p>There are many books and other sources that I have used to build my understanding or have cited more directly throughout the book. I am also planning to use this opportunity to start incorporating research papers as well, another step that will take some orientation and practice. The references chapter includes both cited references and non-cited further reading texts.</p>
 
 
 </section>
@@ -635,7 +603,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
+      <a href="./01_intro.html" class="pagination-link" aria-label="Introduction">
         <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>

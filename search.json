@@ -4,37 +4,37 @@
     "href": "index.html",
     "title": "statsbook",
     "section": "",
-    "text": "Preface\nThis is a Quarto book. With a change to make sure actions are working right.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "Preface\nMy primary inspiration for wanting to revisit this work, distill the core concepts and throughlines, and then rebuild my own understanding and explanations in this book is the series of statistics courses I took during my graduate degree in data science at the University of Colorado Boulder. My background is:\nLiberal Arts -&gt; Information Technology -&gt; Databases -&gt; Project Leadership -&gt; Data Science\nThe exposure to the formal mathematics in the statistics courses and that underlie the data and machine learning work I was already doing was both challenging and engaging, so the hope is to use this book as an opportunity to go through that content more slowly and in more depth.\nNot being sure where I will attribute more concretely, this is a list of the course areas that serve as inspiration and guidance for this book:\n\nProbability with Dr. Anne Dougherty\nStatistical estimation, statistical inference, and hypothesis testing with Dr. Jem Corcoran\nStatistical modeling, regression analysis, ANOVA, generalized linear models, and nonparametric regression with Dr. Brian Zaharatos\nStatistical learning, regression, and classification with Dr. James Bird\nStatistical learning, resampling, selection, and splines with Dr. Osita Onyejekwe\n\nThese courses are scoped to what I consider to be the statistical foundation of regression and regression-adjacent modeling, in contrast to the jump to machine learning where we focus more heavily on nonparametric methods, though there is some overlap and some of the above professors also covered content that would fall into how I distinguish machine learning, but machine learning will wait for another book.\nIn particular, I like the broader progression in the order in which I took these courses and that span across instructors:\nprobability -&gt; statistical estimation -&gt; hypothesis testing -&gt; regression -&gt; ANOVA -&gt; generalized linear models -&gt; generalized additive models\nThe piece that clicked for me and helped my broader understanding of statistical modeling is the move from linear regression to generalized linear models (GLM) – though linear regression is a GLM with an identity link function relating the response to the linear combination of independent variables – to generalized additive models (GAM) where the relationship between the independent and dependent variables can be non-linear and nonparametric. For whatever reason, this step from linear regression to GLMs to GAMs was a big ah-ha moment for me, and it has stuck in my head for two years and I now circle back to explore it more fully.\nWhile my notes and projects from these courses will inform and guide the direction of this book, at least for now, the goal is to pull out the broader dialogue across the courses above, distilling into my understanding and way of charting the progression, supplementing with other resources, and incorporating formal math proofs and work inspired by all of the above and primarily worked through for checking my own understanding and intuition.\nThere are many books and other sources that I have used to build my understanding or have cited more directly throughout the book. I am also planning to use this opportunity to start incorporating research papers as well, another step that will take some orientation and practice. The references chapter includes both cited references and non-cited further reading texts.",
     "crumbs": [
       "Preface"
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
+    "objectID": "01_intro.html",
+    "href": "01_intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Introduce me plz",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "99_references.html",
+    "href": "99_references.html",
+    "title": "References",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "text": "Further Reading\nWhile working on this book, I will add more texts here than may end up in the final draft. The standard for a text being added here is that I spent at least a few minutes looking over a text to determine if there is material that is related to what I would like to cover in my book and that looks useful for helping me to understand or think about concepts differently.\nLearning Statistics with R Danielle Navarro (Navarro 2019)\nInterpretable Machine Learning Christoph Molnar (Molnar 2025)",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "References"
     ]
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
+    "objectID": "99_references.html#bibliography",
+    "href": "99_references.html#bibliography",
     "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "section": "Bibliography",
+    "text": "Bibliography\n\n\nMolnar, Christoph. 2025. Interpretable Machine Learning: A Guide for\nMaking Black Box Models Explainable. 3rd ed. https://christophm.github.io/interpretable-ml-book.\n\n\nNavarro, Danielle. 2019. Learning Statistics with r: A Tutorial for\nPsychology Students and Other Beginners (version 0.6). https://learningstatisticswithr.com/.",
     "crumbs": [
       "References"
     ]
