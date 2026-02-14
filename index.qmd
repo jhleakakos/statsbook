@@ -14,14 +14,12 @@ Not being sure where I will attribute more concretely, this is a list of the cou
 - Regression and classification with Dr. James Bird
 - Resampling, selection, and splines with Dr. Osita Onyejekwe
 
-These courses are scoped to what I consider to be the statistical foundation of regression and regression-adjacent modeling, in contrast to the jump to machine learning where we focus more heavily on nonparametric methods, though there is some overlap and some of the above professors also covered content that would fall into how I distinguish machine learning, but machine learning will wait for another book.
+These courses are scoped to what I consider to be the statistical foundation of regression and regression-adjacent modeling, in contrast to the jump to machine learning where we focus more heavily on nonparametric methods, though there is some overlap. In particular, I like the broader progression in the order in which I took these courses and that spans across courses:
 
-In particular, I like the broader progression in the order in which I took these courses and that span across instructors:
+Probability -> Statistical Estimation -> Hypothesis Testing -> Regression -> ANOVA -> Generalized Linear Models -> Generalized Additive Models
 
-probability -> statistical estimation -> hypothesis testing -> regression -> ANOVA -> generalized linear models -> generalized additive models
+The piece that clicked for me and helped my broader understanding of statistical modeling is the move from linear regression to generalized linear models (GLM) by adding link functions and to generalized additive models (GAM) where the relationship between the independent and dependent variables can be non-linear and nonparametric. This step from linear regression to GLMs to GAMs was a big ah-ha moment for me.
 
-The piece that clicked for me and helped my broader understanding of statistical modeling is the move from linear regression to generalized linear models (GLM) -- though linear regression is a GLM with an identity link function relating the response to the linear combination of independent variables -- to generalized additive models (GAM) where the relationship between the independent and dependent variables can be non-linear and nonparametric. For whatever reason, this step from linear regression to GLMs to GAMs was a big ah-ha moment for me, and it has stuck in my head for two years and I now circle back to explore it more fully.
-
-While my notes and projects from these courses will inform and guide the direction of this book, at least for now, the goal is to pull out the broader dialogue across the courses above, distilling into my understanding and way of charting the progression, supplementing with other resources, and incorporating formal math proofs and work inspired by all of the above and primarily worked through for checking my own understanding and intuition.
+My notes and projects from these courses will inform and guide the direction of this book, pulling out the broader dialogue across the courses above and that progression from regression to GLMs to GAMS in particular while also providing anchor points from which to branch off into other texts and take detours into areas that ask for more time and exploration.
 
 There are many books and other sources that I have used to build my understanding or have cited more directly throughout the book. I am also planning to use this opportunity to start incorporating research papers as well, another step that will take some orientation and practice. The references chapter includes both cited references and non-cited further reading texts.
