@@ -5,12 +5,22 @@
 While working on this book, I will add more texts here than may end up in the final draft. The standard for a text being added here is that I spent at least a few minutes looking over a text to determine if there is material that is related to what I would like to cover in my book and that looks useful for helping me to understand or think about concepts differently.
 
 Learning Statistics with R
-Danielle Navarro
 [@navarro2019]
 
+An Introduction to Mathematical Statistics
+[@corcoran2017]
+
+An Introduction to Statistical Learning
+[@islr2023]
+
 Interpretable Machine Learning
-Christoph Molnar
 [@molnar2025]
+
+Elements of Statistical Learning
+[@esl2017]
+
+Introductory Statistics
+[@is2013]
 
 ## Bibliography
 
