@@ -24,7 +24,7 @@
     "href": "99_references.html",
     "title": "References",
     "section": "",
-    "text": "Further Reading\nWhile working on this book, I will add more texts here than may end up in the final draft. The standard for a text being added here is that I spent at least a few minutes looking over a text to determine if there is material that is related to what I would like to cover in my book and that looks useful for helping me to understand or think about concepts differently.\nLearning Statistics with R Danielle Navarro (Navarro 2019)\nInterpretable Machine Learning Christoph Molnar (Molnar 2025)",
+    "text": "Further Reading\nWhile working on this book, I will add more texts here than may end up in the final draft. The standard for a text being added here is that I spent at least a few minutes looking over a text to determine if there is material that is related to what I would like to cover in my book and that looks useful for helping me to understand or think about concepts differently.\nLearning Statistics with R (Navarro 2019)\nAn Introduction to Mathematical Statistics (Corcoran 2017)\nAn Introduction to Statistical Learning (James et al. 2023)\nInterpretable Machine Learning (Molnar 2025)\nElements of Statistical Learning (Hastie, Tibshirani, and Friedman 2017)\nIntroductory Statistics (Illowsky and Dean 2013)",
     "crumbs": [
       "References"
     ]
@@ -34,7 +34,7 @@
     "href": "99_references.html#bibliography",
     "title": "References",
     "section": "Bibliography",
-    "text": "Bibliography\n\n\nMolnar, Christoph. 2025. Interpretable Machine Learning: A Guide for\nMaking Black Box Models Explainable. 3rd ed. https://christophm.github.io/interpretable-ml-book.\n\n\nNavarro, Danielle. 2019. Learning Statistics with r: A Tutorial for\nPsychology Students and Other Beginners (version 0.6). https://learningstatisticswithr.com/.",
+    "text": "Bibliography\n\n\nCorcoran, J. N. 2017. An Introduction to Mathematical\nStatistics.\n\n\nHastie, Trevor, Robert Tibshirani, and Jerome Friedman. 2017. The\nElements of Statistical Learning: Data Mining, Inference, and\nPrediction. 2nd ed. https://hastie.su.domains/ElemStatLearn/.\n\n\nIllowsky, Barbara, and Susan Dean. 2013. Introductory\nStatistics. https://openstax.org/details/books/introductory-statistics/.\n\n\nJames, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani.\n2023. An Introduction to Statistical Learning: With Applications in\nr. 2nd ed. https://www.statlearning.com/.\n\n\nMolnar, Christoph. 2025. Interpretable Machine Learning: A Guide for\nMaking Black Box Models Explainable. 3rd ed. https://christophm.github.io/interpretable-ml-book.\n\n\nNavarro, Danielle. 2019. Learning Statistics with r: A Tutorial for\nPsychology Students and Other Beginners (version 0.6). https://learningstatisticswithr.com/.",
     "crumbs": [
       "References"
     ]
